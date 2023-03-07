@@ -2,7 +2,7 @@
 @section('title', 'Créer nouvel étudiant')
 
 @section('content')
-<form action="{{route('inserer')}}" method="post">
+<form action="{{route('insert')}}" method="post">
     @csrf
 <div class="row g-3 align-items-center mb-4">
         <div class="col-auto">
